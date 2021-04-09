@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#content {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+
+.content h1, .content p {
+    text-align: center;
+}
+
+.content h1 {
+    margin: 5rem 0 2rem 0;
+}
+
+.content > p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.timing {
+    width: fit-content;
+    background-color: #727272;
+    margin: auto;
+    padding: 1rem;
+}
+
+.timing p{
+    color: #fff;
+    font-size: 8rem;
+    border-radius: 1rem;
+    font-weight: 500;
+}
+
+.timing p.seconds {
+    font-size: 1rem;
+}
